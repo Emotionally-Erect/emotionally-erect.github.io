@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wretched Richard's Cosey Connections</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c2c2c;
+            background: linear-gradient(135deg, #4a7ba7 0%, #3d6b94 50%, #36648f 100%);
+            min-height: 100vh;
+        }
+
+        /* Cherry blossom background pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(255, 182, 193, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 192, 203, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 40% 70%, rgba(255, 182, 193, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 90% 80%, rgba(255, 192, 203, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(255, 182, 193, 0.2);
+            border: 2px solid rgba(255, 182, 193, 0.3);
+        }
+
+        h1 {
+            color: #8b4789;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.3);
+        }
+
+        .tagline {
+            color: #a67ba6;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(255, 182, 193, 0.15);
+        }
+
+        nav a {
+            color: #8b4789;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            background: rgba(255, 182, 193, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .content-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(255, 182, 193, 0.2);
+            border: 1px solid rgba(255, 182, 193, 0.3);
+        }
+
+        h2 {
+            color: #8b4789;
+            margin-bottom: 20px;
+            border-bottom: 3px solid rgba(255, 182, 193, 0.5);
+            padding-bottom: 10px;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid rgba(255, 182, 193, 0.3);
+        }
+
+        .blog-post:last-child {
+            border-bottom: none;
+        }
+
+        .blog-post h3 {
+            color: #8b4789;
+            margin-bottom: 10px;
+        }
+
+        .blog-date {
+            color: #a67ba6;
+            font-style: italic;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .blog-content {
+            color: #2c2c2c;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #8b4789;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .cherry-blossom-accent {
+            display: inline-block;
+            color: #ffb6c1;
+            margin: 0 5px;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .content-section {
+                padding: 25px;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="cherry-blossom-accent">🌸</span> Wretched Richard's Cosey Connections <span class="cherry-blossom-accent">🌸</span></h1>
+            <p class="tagline">Keeping family and friends warmly connected</p>
+        </header>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <section id="home" class="content-section">
+            <h2>Welcome! <span class="cherry-blossom-accent">🌸</span></h2>
+            <p>Hello and welcome to my little corner of the internet! This is where I share updates, thoughts, and stories with the people who matter most to me. No algorithms, no ads—just genuine connection.</p>
+            <p style="margin-top: 15px;">Grab a cup of tea, settle in, and catch up on what's been happening in my world.</p>
+        </section>
+
+        <section id="blog" class="content-section">
+            <h2>Recent Updates <span class="cherry-blossom-accent">🌸</span></h2>
+            
+            <article class="blog-post">
+                <h3>Welcome to My New Website!</h3>
+                <p class="blog-date">October 3, 2025</p>
+                <div class="blog-content">
+                    <p>I'm excited to finally have my own space online! After getting tired of social media, I decided to create a simple website where I can share updates with family and friends on my own terms.</p>
+                    <p>This site will be a place for stories, photos, and staying connected. I'll be updating it regularly, so bookmark it and check back often!</p>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <h3>Your Second Blog Post Title Here</h3>
+                <p class="blog-date">Date here</p>
+                <div class="blog-content">
+                    <p>Your blog post content goes here. Share your thoughts, stories, and updates with your loved ones!</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About Me <span class="cherry-blossom-accent">🌸</span></h2>
+            <p>Hi! I'm Richard, and I created this website as a cozy way to stay connected with the people I care about. Without the noise and distraction of social media, this is my personal space to share what's happening in my life.</p>
+            <p style="margin-top: 15px;">Feel free to reach out if you'd like to stay in touch or have any questions!</p>
+        </section>
+
+        <footer>
+            <p><span class="cherry-blossom-accent">🌸</span> Wretched Richard's Cosey Connections <span class="cherry-blossom-accent">🌸</span></p>
+            <p style="margin-top: 10px; font-size: 0.9em;">© 2025 - Made with care</p>
+        </footer>
+    </div>
+</body>
+</html>
